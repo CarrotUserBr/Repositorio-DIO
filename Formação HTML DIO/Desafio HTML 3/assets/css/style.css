@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+section.main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    background-color: rgba(4, 1, 41, 0.5);
+    text-align: center;
+}
+article {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+nav {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+header {
+    text-align: center;
+    background-color: rgba(4, 1, 41, 0.5);
+}
+h1{
+    font-size:xx-large
+}
+table td {
+    text-align: center;
+    padding: 15px;
+}
+table th{
+    padding: 8px;;
+}
+details summary{
+    list-style-type: '➶';
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table th{
+    background-color: #d2d2d2;
+}
+table td.showrunner {
+    background-color: #ffffff;
+}
+footer a {
+    color: rgb(14, 3, 78);
+}
