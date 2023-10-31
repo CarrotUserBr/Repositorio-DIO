@@ -1,4 +1,4 @@
-# Desafio de Projeto DIO
-Repostório do desafio de projeto sobre Git/Github para compartilhar meu progresso
+# Repositório de Estudos na plataforma DIO
+Neste repositório estarei postando minhas evoluções na plataforma DIO
 
 
